@@ -1,6 +1,8 @@
 # CueMeet API Client for Node.js
 
-A TypeScript/JavaScript client library for interacting with the CueMeet API.
+A TypeScript/JavaScript client library for interacting with the [CueMeet API](https://cuemeet.ai). For detailed documentation, visit our [official docs](https://cuemeet.github.io/cuemeet-documentation).
+
+CueMeet is an API-first platform that powers meeting bot products. It provides transcription, summarization, speaker tracking, and workflow automation out of the box — so you can focus on building a great product, not infrastructure. CueMeet offers both cloud and self-hosted deployment options. You can run CueMeet on your own infrastructure for maximum data privacy and compliance needs. CueMeet is completely free to use.
 
 ## Features
 
