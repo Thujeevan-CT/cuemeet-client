@@ -10,7 +10,7 @@ export interface ApiKey {
   name: string;       // Descriptive name for the API key
   createdAt: string;  // API key creation timestamp
   expiresAt?: string; // API key expiration timestamp
-  apiKey?: string;    // The actual API key value (only returned upon creation)
+  apiKey: string;    // The actual API key value (only returned upon creation)
 }
 
 export interface ApiKeyListResponse {

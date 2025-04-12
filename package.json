@@ -1,9 +1,9 @@
 {
-  "name": "cuemeet",
+  "name": "cuemeet-b",
   "version": "1.0.0",
   "description": "CueMeet API Client for Node.js",
-  "main": "dist/src/index.js",
-  "types": "dist/src/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git@github.com:Thujeevan-CT/cuemeet-client.git"

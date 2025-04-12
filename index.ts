@@ -1,12 +1,12 @@
 import axios, { AxiosInstance, AxiosError } from 'axios';
 
-import { UserData, UserResponse } from './utils/types/user.type';
-import { ApiKeyData, ApiKey, ApiKeyListResponse, RevokeApiKeyResponse } from './utils/types/api-key.type';
-import { CreateBotRequest, BotResponse, RetrieveBotResponse, RemoveBotResponse } from './utils/types/bot.type';
-import { TranscriptQueryParams, TranscriptResponse } from './utils/types/transcript.type';
-import { CueMeetClientOptions } from './utils/types';
+import { UserData, UserResponse } from './src/utils/types/user.type';
+import { ApiKeyData, ApiKey, ApiKeyListResponse, RevokeApiKeyResponse } from './src/utils/types/api-key.type';
+import { CreateBotRequest, BotResponse, RetrieveBotResponse, RemoveBotResponse } from './src/utils/types/bot.type';
+import { TranscriptQueryParams, TranscriptResponse } from './src/utils/types/transcript.type';
+import { CueMeetClientOptions } from './src/utils/types';
 
-import { CueMeetError, ValidationError } from './utils/errors';
+import { CueMeetError, ValidationError } from './src/utils/errors';
 
 export default class CueMeetClient {
   private baseUrl: string;
@@ -290,8 +290,4 @@ export default class CueMeetClient {
       throw new ValidationError('Name is required and must be a non-empty string');
     }
   }
-}
-
-
-
-export default CueMeetClient;
+};

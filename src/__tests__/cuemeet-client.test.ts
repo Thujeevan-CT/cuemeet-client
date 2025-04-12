@@ -1,4 +1,4 @@
-import { CueMeetClient } from '../index';
+import CueMeetClient from '../../index';
 import { CueMeetError } from '../utils/errors';
 import axios, { AxiosInstance } from 'axios';
 import MockAdapter from 'axios-mock-adapter';
