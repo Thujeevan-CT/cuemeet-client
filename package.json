@@ -4,16 +4,20 @@
   "description": "CueMeet API Client for Node.js",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Thujeevan-CT/cuemeet-client.git"
+  },
   "scripts": {
     "build": "tsc",
-    "test": "jest",
+    "test": "jest", 
     "lint": "eslint src/**/*.ts",
     "format": "prettier --write src/**/*.ts"
   },
   "keywords": [
     "cuemeet",
     "api",
-    "client",
+    "client", 
     "meeting",
     "transcript"
   ],
