@@ -1,0 +1,37 @@
+{
+  "name": "cuemeet",
+  "version": "1.0.0",
+  "description": "CueMeet API Client for Node.js",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts"
+  },
+  "keywords": [
+    "cuemeet",
+    "api",
+    "client",
+    "meeting",
+    "transcript"
+  ],
+  "author": "CueMeet",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.7"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.19",
+    "@typescript-eslint/eslint-plugin": "^7.0.1",
+    "@typescript-eslint/parser": "^7.0.1",
+    "axios-mock-adapter": "^1.22.0",
+    "eslint": "^8.56.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.2.5",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  }
+}
