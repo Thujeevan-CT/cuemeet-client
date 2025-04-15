@@ -1,6 +1,6 @@
 {
-  "name": "cuemeet-b",
-  "version": "1.0.0",
+  "name": "cuemeet-client",
+  "version": "1.0.1",
   "description": "CueMeet API Client for Node.js",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

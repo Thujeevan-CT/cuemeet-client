@@ -24,7 +24,7 @@ npm install cuemeet
 ### Initialization
 
 ```typescript
-import CueMeetClient from 'cuemeet';
+import CueMeetClient from 'cuemeet-client';
 
 const client = new CueMeetClient({
   baseUrl: 'https://api.cuemeet.com', // Your CueMeet API base URL
