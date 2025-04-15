@@ -16,7 +16,7 @@ CueMeet is an API-first platform that powers meeting bot products. It provides t
 ## Installation
 
 ```bash
-npm install cuemeet
+npm install cuemeet-client
 ```
 
 ## Usage
